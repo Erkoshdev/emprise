@@ -17,3 +17,15 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
 }
+
+@media (hover:hover) {
+  .text-link:hover:after {
+    transform: translateX(10px);
+  }
+  .news-card:hover {
+    background: #FFFFFF;
+    .news-card-img img {
+      transform: scale(1.2);
+    }
+  }
+}
