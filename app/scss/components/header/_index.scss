@@ -1,0 +1,136 @@
+.header {
+  background: #fff;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+}
+
+.logo-white {
+  display: none;
+}
+
+.header-nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-nav li + li {
+  margin-left: 50px;
+}
+
+.header-nav a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #373737;
+  padding: 5px 0;
+  display: inline-block;
+  position: relative;
+}
+
+.header-nav a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: #F37321;
+  transition: 0.3s ease;
+  opacity: 0;
+
+}
+
+.header-nav a.active:after {
+  opacity: 1;
+}
+
+.header-nav a:hover:after {
+  opacity: 1;
+}
+
+.toggle-lang {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-lang-btn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #AFAFAF;
+}
+
+.toggle-lang-btn:hover {
+  color: #AFAFAF;
+}
+
+.toggle-lang-btn.active {
+  color: #373737;
+}
+
+.toggle-lang-btn.active:hover {
+  color: #373737;
+}
+
+.toggle-lang span {
+  content: '/';
+  margin: 0 7px;
+  color: #AFAFAF;
+  font-family: "SF Ui Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: block;
+}
+
+.contact-link {
+  margin-left: 42px;
+  padding: 12.5px 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #F37321;
+  border-radius: 40px;
+  transition: 0.2s ease;
+  border: 2px solid #F37321;
+}
+
+.header.light {
+  background: transparent;
+  .header-logo img {
+    display: none;
+  }
+  .header-logo img.logo-white {
+    display: block;
+  }
+  .header-nav a {
+    color: #FFFFFF;
+  }
+  .header-nav a:after {
+    background: #fff;
+  }
+  .toggle-lang span {
+    color: rgba(255,255,255,0.4);
+  }
+  .toggle-lang-btn {
+    color: rgba(255,255,255,0.4);
+  }
+  .toggle-lang-btn.active {
+    color: #fff;
+  }
+  .contact-link {
+    background: transparent;
+    border-color: #fff;
+  }
+}
+
+
+
+@import "media";

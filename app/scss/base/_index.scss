@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "SF Ui Display", sans-serif;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: 100%;
+  max-width: 1330px;
+  padding-right: 48px;
+  padding-left: 48px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #F6F7F9;
+}
+
+.main {
+  flex: 1;
+}
+
+.scroll-locked {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+
+svg, img {
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.icon {
+  display: inline-block;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.absolute-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.4);
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.btn-plain {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.title-lg {
+  font-family: 'Phenomena', sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #B9B9B9;
+}
