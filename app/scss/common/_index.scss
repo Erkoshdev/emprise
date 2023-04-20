@@ -1003,5 +1003,321 @@
   }
 }
 
+.help {
+  padding-top: 130px;
+}
+
+.help .subtitle {
+  text-align: center;
+}
+
+.help .title-lg {
+  text-align: center;
+}
+
+.help-row {
+  display: flex;
+  margin-top: 130px;
+}
+
+.help-left {
+  width: 37%;
+}
+
+.help-left p {
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155%;
+  color: #646D79;
+}
+
+.help-right {
+  width: 63%;
+  padding-left: 200px;
+}
+
+.help-item .title-md {
+  position: relative;
+}
+
+.help-item .title-md:before {
+  content: '';
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.help-item:nth-child(1) .title-md:before {
+  background: url("../img/icon/bulb.svg") no-repeat center/contain;
+  width: 36px;
+  height: 35px;
+}
+
+.help-item:nth-child(2) .title-md:before {
+  background: url("../img/icon/pen.svg") no-repeat center/contain;
+  width: 38px;
+  height: 37px;
+}
+
+.help-item:nth-child(3) .title-md:before {
+  background: url("../img/icon/figure.svg") no-repeat center/contain;
+  width: 34px;
+  height: 34px;
+}
+
+.help-item p {
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155%;
+  color: #646D79;
+}
+
+.help-item + .help-item {
+  margin-top: 50px;
+}
+
+.service-cards {
+  padding-top: 130px;
+}
+
+.service-card {
+  display: flex;
+  align-items: center;
+}
+
+.service-card-caption {
+  background: #E9ECF1;
+  border-radius: 20px;
+  padding: 60px 340px 60px 60px;
+  width: 860px;
+  flex-shrink: 0;
+  min-height: 540px;
+}
+
+.service-card-caption .title-lg {
+  margin-bottom: 30px;
+}
+
+.service-card-caption p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #707070;
+}
+
+.service-card-caption p + p {
+  margin-top: 25px;
+}
+
+.service-card-img {
+  width: 500px;
+  margin-left: -250px;
+  z-index: 1;
+}
+
+.service-card-img img {
+  border-radius: 20px;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+}
+
+.service-card-img .text-link {
+  margin-top: 45px;
+}
+
+.service-card.reverse {
+  .service-card-caption {
+    padding: 60px 60px 60px 340px;
+  }
+  .service-card-img {
+    margin-left: initial;
+    margin-right: -250px;
+  }
+}
+
+.service-page .service-card + .service-card {
+  margin-top: 30px;
+}
+
+.portfolio {
+  padding-top: 90px;
+}
+
+.nav-pills {
+  min-width: 120px;
+  margin-right: 70px;
+}
+
+.tab-link {
+  border: none;
+  background: transparent;
+  font-family: 'Phenomena', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  color: #B9B9B9;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.tab-link.active {
+  color: #F37321;
+}
+
+.tab-link + .tab-link {
+  margin-top: 40px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.portfolio-card {
+  width: calc(50% - 30px);
+  margin: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-card-img {
+  height: 270px;
+  position: relative;
+}
+
+.portfolio-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.loup-icon {
+  width: 108px;
+  height: 108px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.portfolio-card-caption {
+  padding: 16px 30px 24px 30px;
+  background: #fff;
+  font-family: 'Phenomena', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  text-transform: uppercase;
+  color: #373737;
+}
+
+.portfolio-card-caption span {
+  color: #B9B9B9;
+}
+
+.portfolio-detail-page {
+  padding-top: 75px;
+}
+
+.portfolio-desc {
+  display: flex;
+  padding-top: 40px;
+}
+
+.portfolio-desc-caption {
+  width: 40%;
+  flex-shrink: 0;
+}
+
+.portfolio-desc-caption .title-lg {
+  margin-top: 10px;
+}
+
+.portfolio-desc-caption p {
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 155%;
+  color: #646D79;
+}
+
+.portfolio-desc-caption p + p {
+  margin-top: 28px;
+}
+
+.portfolio-desc-img {
+  position: relative;
+  margin-left: 100px;
+  display: flex;
+  flex: 1;
+}
+
+.portfolio-desc-img img {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  z-index: 3;
+}
+
+.portfolio-desc-img img + img {
+  margin-top: 99px;
+  margin-left: -97px;
+}
+
+.portfolio-desc-img:before {
+  content: '';
+  width: 561px;
+  height: 561px;
+  border-radius: 50%;
+  border: 32px solid #FFFFFF;
+  position: absolute;
+  top: -60px;
+  right: -57px;
+  z-index: 2;
+}
+
+.portfolio-desc-img:after {
+  content: '';
+  position: absolute;
+  width: 228px;
+  height: 228px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #F37321;
+  filter: blur(217px);
+  z-index: 1;
+}
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.portfolio-img img + img {
+  margin-top: 30px;
+}
+
 
 @import "media";
