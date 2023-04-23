@@ -1,1 +1,91 @@
 
+//desktops
+@media (min-width: 1200px) and  (max-width: 1399px) {
+
+}
+
+//desktops
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+//tablets
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-nav {
+    margin: 0 0 0 auto;
+  }
+  .footer-nav li + li {
+    margin-left: 35px;
+  }
+  .footer-social {
+    margin: 40px auto 0 auto;
+  }
+  .footer-contact {
+    margin-top: 20px;
+  }
+}
+
+//phones
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer-row {
+    padding: 20px 0 30px 0;
+  }
+  .footer-logo {
+    order: 1;
+  }
+  .footer-logo img {
+    max-width: 90px;
+  }
+  .footer-social {
+    width: fit-content;
+    order: 2;
+    margin-left: auto;
+  }
+  .footer-social li+li {
+    margin-left: 20px;
+  }
+  .footer-nav {
+    order: 3;
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+  }
+  .footer-nav li+li {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .footer-nav li {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-nav a {
+    font-size: 20px;
+  }
+  .footer-contact {
+    margin-top: 30px;
+    order: 4;
+  }
+  .footer-phone {
+    font-size: 24px;
+  }
+  .copyright {
+    padding: 15px 0;
+  }
+  .copyright p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+}
+
+@media (hover: hover) {
+  .contact-link:hover {
+    background: #fff;
+    color: #F37321;
+  }
+  .header.light .contact-link:hover {
+    background: #fff;
+    color: #F37321;
+  }
+
+}

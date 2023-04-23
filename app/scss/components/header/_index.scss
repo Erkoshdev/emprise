@@ -12,9 +12,14 @@
   display: none;
 }
 
+.mobile-menu {
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
+}
+
 .header-nav {
   display: flex;
-  margin: 0 auto;
 }
 
 .header-nav li + li {
@@ -129,6 +134,14 @@
     background: transparent;
     border-color: #fff;
   }
+}
+
+.toggle-header-nav {
+  display: none;
+}
+
+.contact-link-xs {
+  display: none;
 }
 
 
